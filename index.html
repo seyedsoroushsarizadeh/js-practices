@@ -7,53 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .add {
-            height: 100px;
-            padding: 15px;
-            font-size: 20px;
-            background-color: rgb(140, 43, 231);
-        }
 
-        .rem {
-            height: 100px;
-            padding: 15px;
-            font-size: 20px;
-            background-color: rgb(43, 168, 226);
-        }
-
-        .toggle {
-            height: 200px;
-            padding: 20px;
-            font-size: 50px;
-            background-color: rgb(231, 171, 43);
-        }
     </style>
 </head>
 
 <body>
-    <div>
-        <p>add style</p>
-    </div>
-
-    <div class="rem">
-        <p>remove style</p>
-    </div>
-
-    <div class="hero">
-        <p>toggle style</p>
-    </div>
-
     <script>
-        /* add style to element */
-        document.querySelector('div').classList.add('add');
 
-        /* remove style of element */
-        document.querySelector('div.rem').classList.remove('rem');
-
-        /* add/remove style to element */
-        document.querySelector('div.hero').addEventListener('click', (event) => {
-            event.currentTarget.classList.toggle('toggle');
-        });
     </script>
 </body>
 
